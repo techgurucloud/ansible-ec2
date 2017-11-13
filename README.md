@@ -1,6 +1,3 @@
-# ansible-ec2
-
-
 # techguru.cloud
 
 Ansible playbook to create EC2 instance.

@@ -1,0 +1,20 @@
+# EC2 instance variable
+
+ec2:
+  region: eu-west-1
+  credentials: newkeys
+  image: ami-9398d3e0
+  sg: AllowSSH
+  instance_type: t2.micro
+  subnet: subnet-ed9001b5
+  public_ip: yes
+  tags:
+    Name: Ec2Ansible
+  volumes:
+    - device_name: /dev/xvda
+      volume_type: standard
+      volume_size: 8
+  
+
+
+
